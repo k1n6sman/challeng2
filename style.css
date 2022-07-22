@@ -78,6 +78,7 @@
 .checkbock{
     display: flex;
     text-align: start;
+    cursor: pointer;
 }
 .posicion2{
     position: absolute;
