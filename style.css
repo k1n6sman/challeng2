@@ -68,6 +68,9 @@
     color: #e5e5e5;
     transition: 0.5s
 }
+.botones:active{
+    background-color: #f09;
+}
 .opinion{
     margin-top: 10px;
     display: inline;
