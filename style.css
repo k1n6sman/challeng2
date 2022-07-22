@@ -31,20 +31,25 @@
 }
 .boton1{
     position: absolute;
-    right: 30px;
+    right: 15px;
     cursor: pointer;
     margin-top: 10px;
-    border-radius: 10px;
+    border-radius: 50%;
+    border-width: 0.5px;
     border-color: rgb(219, 216, 216);
+    border-style: solid;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
 }
 .texto1{ 
     text-align: center;
-    color: #151a41; 
+    color:rgb(3, 16, 87); 
 }   
 .texto2{
     position: absolute;
     left: 52px;
-    color: #151a41;
+    color:rgb(3, 16, 87); 
 }   
 .posicion{
     right: 65px;
@@ -97,7 +102,7 @@
     height: 50px;
     border: 1px solid rgb(211, 211, 211);
     border-radius: 3px;
-    color: #151a41;
+    color:rgb(3, 16, 87); 
     cursor: pointer;
 }
 .posicionfinal{
