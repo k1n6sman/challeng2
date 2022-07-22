@@ -1,0 +1,106 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media(min-width:600px){
+    .contenido{
+        width: 600px;
+        height: 500px;
+    }
+}
+.contenido{
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    background-color: #e5e5e5;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.tarjeta{
+    width: 400px;
+    height: 420px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    box-shadow: 0px 5px 0px 0 rgba(53, 52, 52, 0.2);
+    position: absolute;
+    margin-top: 1%;
+}
+.boton1{
+    position: absolute;
+    right: 30px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 10px;
+    border-color: rgb(219, 216, 216);
+}
+.texto1{ 
+    text-align: center;
+    color: #151a41; 
+}   
+.texto2{
+    position: absolute;
+    left: 52px;
+    color: #151a41;
+}   
+.posicion{
+    right: 65px;
+    position: absolute;
+}
+.botones{
+    display: inline;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+}
+.botones:hover{
+    background-color: #f09;
+    color: #e5e5e5;
+    transition: 0.5s
+}
+.opinion{
+    margin-top: 10px;
+    display: inline;
+    display: flex;
+    justify-content: space-evenly;
+}
+.insatisfecho{
+    margin-right: 10%;
+}
+.satisfecho{
+    text-align: end
+}
+.checkbock{
+    display: flex;
+    text-align: start;
+}
+.posicion2{
+    position: absolute;
+    right: 150px;
+    display: flex;
+}
+.linea{
+    position: absolute;
+    margin: 79px;
+    width: 60%;
+    border-bottom: 2px solid rgb(211, 211, 211);
+    margin-top: 15%;
+}
+.botonfinal{
+    width: 240px;
+    height: 50px;
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 3px;
+    color: #151a41;
+    cursor: pointer;
+}
+.posicionfinal{
+    text-align: center;
+    padding-top: 5%;
+
+}
